@@ -33,7 +33,7 @@ class Get(Resource):
             options.add_argument('disable-gpu')
             options.add_argument('lang=ko_KR')
 
-            chromedriver = 'C:\driver\chromedriver.exe'
+            chromedriver = '\chromedriver.exe'
 
             driver = webdriver.Chrome(chromedriver, options=options)
             driver.get('https://www.rocketpunch.com/jobs' + encoded + 'page=1')
