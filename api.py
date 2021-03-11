@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask_restful import Resource
 from flask_restful import reqparse
 from flask import Flask
